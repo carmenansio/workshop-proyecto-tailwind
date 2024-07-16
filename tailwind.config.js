@@ -1,4 +1,7 @@
-module.exports = {
+const withMT = require("@material-tailwind/html/utils/withMT");
+ 
+module.exports = withMT({
+// module.exports = {
     content: ["./**/*.{html,js}"],
     theme: {
       extend: {
@@ -15,5 +18,6 @@ module.exports = {
     },
     plugins: [
     ],
-  }
+  // }
+});
   

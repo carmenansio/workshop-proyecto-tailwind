@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Workshop Material</title>
+    <link href="output.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="px-8 py-10">
+        <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 border border-gray-300">
+            <div
+                class="relative bg-clip-border mt-4 mx-4 rounded-xl overflow-hidden bg-white text-gray-700 flex overflow-visible gap-y-4 flex-wrap items-start justify-between rounded-none">
+                <div>
+                    <h1
+                        class="block antialiased tracking-normal font-sans text-5xl font-semibold leading-tight text-blue-gray-900 !text-2xl mb-1">
+                        Top Creators
+                    </h1>
+                    <p
+                        class="block antialiased font-sans text-base font-light leading-relaxed text-blue-gray-900 !text-lg font-normal text-gray-600">
+                        The most sought-after collections across the entire ecosystem.
+                    </p>
+                </div>
+                <div class="flex shrink-0 gap-2">
+                    <button
+                        class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-2 px-4 rounded-lg border border-gray-900 text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] border-gray-300"
+                        type="button" data-ripple-dark="true">
+                        Last 24h</button><button
+                        class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-2 px-4 rounded-lg border border-gray-900 text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] border-gray-300"
+                        type="button" data-ripple-dark="true">
+                        Last week</button><button
+                        class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-2 px-4 rounded-lg border border-gray-900 text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85]"
+                        type="button" data-ripple-dark="true">
+                        Last month
+                    </button>
+                </div>
+            </div>
+            <div class="p-6 grid xl:grid-cols-3 grid-cols-1 gap-4 px-4">
+                <div
+                    class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md border border-gray-300 overflow-hidden shadow-sm">
+                    <div class="p-6 p-4">
+                        <p
+                            class="block antialiased font-sans text-base font-light leading-relaxed text-blue-gray-900 !text-base !font-semibold mb-1">
+                            #1
+                        </p>
+                        <div class="my-4 flex items-start justify-between">
+                            <div class="flex items-center gap-3">
+                                <img src="https://www.material-tailwind.com/img/avatar1.jpg" alt="Tina Andrew"
+                                    class="inline-block relative object-cover object-center !rounded-full w-12 h-12 rounded-lg" />
+                                <div>
+                                    <h6
+                                        class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-blue-gray-900">
+                                        Tina Andrew
+                                    </h6>
+                                    <p
+                                        class="block antialiased font-sans text-sm font-light leading-normal text-gray-700 font-medium">
+                                        Creator
+                                    </p>
+                                </div>
+                            </div>
+                            <button
+                                class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-2 px-4 rounded-lg border border-gray-900 text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] border-gray-300"
+                                type="button" data-ripple-dark="true">
+                                see collection
+                            </button>
+                        </div>
+                        <div class="grid grid-cols-3 gap-2">
+                            <img src="https://www.material-tailwind.com/image/web3-card-1.svg"
+                                class="h-full w-full object-cover rounded-xl" alt="name" /><img
+                                src="https://www.material-tailwind.com/image/web3-card-2.svg"
+                                class="h-full w-full object-cover rounded-xl" alt="name" /><img
+                                src="https://www.material-tailwind.com/image/web3-card-3.svg"
+                                class="h-full w-full object-cover rounded-xl" alt="name" />
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md border border-gray-300 overflow-hidden shadow-sm">
+                    <div class="p-6 p-4">
+                        <p
+                            class="block antialiased font-sans text-base font-light leading-relaxed text-blue-gray-900 !text-base !font-semibold mb-1">
+                            #2
+                        </p>
+                        <div class="my-4 flex items-start justify-between">
+                            <div class="flex items-center gap-3">
+                                <img src="https://www.material-tailwind.com/image/avatar2.jpg" alt="Linde Michael"
+                                    class="inline-block relative object-cover object-center !rounded-full w-12 h-12 rounded-lg" />
+                                <div>
+                                    <h6
+                                        class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-blue-gray-900">
+                                        Linde Michael
+                                    </h6>
+                                    <p
+                                        class="block antialiased font-sans text-sm font-light leading-normal text-gray-700 font-medium">
+                                        Creator
+                                    </p>
+                                </div>
+                            </div>
+                            <button
+                                class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-2 px-4 rounded-lg border border-gray-900 text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] border-gray-300"
+                                type="button" data-ripple-dark="true">
+                                see collection
+                            </button>
+                        </div>
+                        <div class="grid grid-cols-3 gap-2">
+                            <img src="https://www.material-tailwind.com/image/web3-card-5-mini.svg"
+                                class="h-full w-full object-cover rounded-xl" alt="name" /><img
+                                src="https://www.material-tailwind.com/image/web3-card-6-mini.svg"
+                                class="h-full w-full object-cover rounded-xl" alt="name" /><img
+                                src="https://www.material-tailwind.com/image/web3-card-7-mini.svg"
+                                class="h-full w-full object-cover rounded-xl" alt="name" />
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md border border-gray-300 overflow-hidden shadow-sm">
+                    <div class="p-6 p-4">
+                        <p
+                            class="block antialiased font-sans text-base font-light leading-relaxed text-blue-gray-900 !text-base !font-semibold mb-1">
+                            #3
+                        </p>
+                        <div class="my-4 flex items-start justify-between">
+                            <div class="flex items-center gap-3">
+                                <img src="https://www.material-tailwind.com/image/avatar7.svg" alt="Misha Stam"
+                                    class="inline-block relative object-cover object-center !rounded-full w-12 h-12 rounded-lg" />
+                                <div>
+                                    <h6
+                                        class="block antialiased tracking-normal font-sans text-base font-semibold leading-relaxed text-blue-gray-900">
+                                        Misha Stam
+                                    </h6>
+                                    <p
+                                        class="block antialiased font-sans text-sm font-light leading-normal text-gray-700 font-medium">
+                                        Creator
+                                    </p>
+                                </div>
+                            </div>
+                            <button
+                                class="align-middle select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-2 px-4 rounded-lg border border-gray-900 text-gray-900 hover:opacity-75 focus:ring focus:ring-gray-300 active:opacity-[0.85] border-gray-300"
+                                type="button" data-ripple-dark="true">
+                                see collection
+                            </button>
+                        </div>
+                        <div class="grid grid-cols-3 gap-2">
+                            <img src="https://www.material-tailwind.com/image/web3-card-4.svg"
+                                class="h-full w-full object-cover rounded-xl" alt="name" /><img
+                                src="https://www.material-tailwind.com/image/web3-card-4.svg"
+                                class="h-full w-full object-cover rounded-xl" alt="name" /><img
+                                src="https://www.material-tailwind.com/image/web3-card-4.svg"
+                                class="h-full w-full object-cover rounded-xl" alt="name" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

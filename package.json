@@ -15,5 +15,8 @@
     "url": "proyecto-tailwind"
   },
   "author": "carmenansio",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@material-tailwind/html": "^2.2.2"
+  }
 }
