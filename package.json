@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-workshop",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npx tailwindcss -i input.css -o output.css",
+    "watch": "npx tailwindcss -i input.css -o output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.5"
+  },
+  "description": "``` tailwind-workshop/ ├── index.html ├── input.css ├── package.json ├── postcss.config.js ├── README.md └── tailwind.config.js ```",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "proyecto-tailwind"
+  },
+  "author": "carmenansio",
+  "license": "ISC"
+}

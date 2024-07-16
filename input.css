@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Clases personalizadas */
+.btn-custom {
+  @apply bg-primary text-white py-2 px-4 rounded-lg shadow-lg;
+}
+
+/* Estilos personalizados */
+.links-footer {
+  @apply list-none p-0 m-0;
+}
+
+.links-footer li {
+  @apply mb-2;
+}
+
+.links-footer a {
+  @apply text-white hover:text-gray-300 transition-colors duration-300;
+}
